@@ -1,0 +1,93 @@
+/* ----------------------------*/
+/*copyhight 2023 @Marilene
+/* ----------------------------*/
+
+/* ----------------------------*/
+/*CUSTOM PROPERTY
+/* ----------------------------*/
+
+:root {
+--cor1: hsl(225, 25%, 9%);
+--cor2: hsl(170, 21%, 5%);
+--cor3: hsl(228, 13%, 15%);
+--cor4: hsl(207, 19%, 11%);
+--cor5: hsl(0, 3%, 80%);
+--cor6: hsl(229, 15%, 21%);
+--cor7: hsl(216, 22%, 18%);
+--cor8: hsl(0, 7%, 88%);
+--cor9: hsl(57, 97%, 45%);
+--cor10: hsl(253, 21%, 13%);
+--cor11: hsl(0, 0%, 74%);
+--cor12: hsl(0, 100%, 100%);
+--cor13: hsl(0, 0%, 0%);
+--cor14: hsl(0, 0%, 20%);
+
+/* Fonte */
+--fs-1: 36px;
+--fs-2: 32px;
+--fs-3: 30px;
+--fs-4: 24px;
+--fs-5: 20px;
+--fs-6: 18px;
+--fs-7: 16px;
+--fs-8: 15px;
+--fs-9: 14px;
+--fs-10: 13px;
+--fs-11: 12px;
+--fs-12: 11px;
+
+
+--fw-500: 500;
+--fw-700: 700;
+
+--ff-Quicksand: font-family: 'Montserrat', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+
+
+/* Transition */
+
+--transition-1: 0.15s  ease;
+--transition-2: 0.25s ease-in;
+
+/* spacing */
+--section-padding: 100px;
+
+}
+
+/* ----------------------------*/
+/*
+/* ----------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+buttons,
+ion-icon{
+    display: block;
+}
+
+html{
+    font-family: var(--ff-Quicksand);
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--cor4);
+}
+
+body.active{
+    overflow: hidden;
+}
